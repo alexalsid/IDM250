@@ -5,35 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/header.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/header.css">    
     <link rel="stylesheet" type="text/css" media="screen" href="css/fonts.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     
 </head>
 <body>
-    <nav>
+    <header>
+    <img src="img/search.svg" alt="search" id="search">
+    <div class="start" id="search-screen">
+        <img src="img/exit.svg" alt="exit" id="exit-search">
 
-        <div class="nav-link" id="projects-cont">
-            <a><img src="img/projects.svg" alt="projects"></a>
-            <!-- remember to style alt text as a fallback -->
-        </div>
-        <div class="nav-link" id="about-cont">
-            <a><img src="img/about.svg" alt="about"></a>
-        </div>
-        <div class="nav-link" id="contact-cont">
-            <a><img src="img/contact.svg" alt="contact"></a>
-        </div>
-        <div class="nav-link" id="experiments-cont"> 
-            <a><img src="img/experiments.svg" alt="experiments-cont"></a>
-        </div>
-    </nav>
+        <form action="search_results.html" method="POST">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <input type="submit" name="submit" id="submit" value="GO">
+        </form>
 
-    <div class="statue-cont">
-        <!-- spinning object in statue -->
-        <img src="img/object.svg">
-        <img src="img/statue.jpg" alt="">
-        <img src="img/statue-back.jpg" alt="">
+
     </div>
+    <img src="img/hamburger.svg" alt="open menu" id="hamburger">
+
+        <nav id="nav">
+            <img src="img/exit.svg" alt="x" id="exit">
+            <img src="img/dash_line.svg" alt="">
+            <a href="projects.html">Projects</a>
+            <img src="img/dash_line.svg" alt="">
+            <a href="about.html">About</a>
+            <img src="img/dash_line.svg" alt="">
+            <a href="contact.html">Contact</a>
+            <img src="img/dash_line.svg" alt="">
+            <a href="">Experience</a>
+            <img src="img/dash_line.svg" alt="">
+        </nav>
+    </header>
+
+    <main>
+   
+   
+
+    <img src="img/cover_img_mobile.png" alt="" class="mobile">
+
+  
+
+
+    </main>
+
+
 
 
 
@@ -42,12 +60,14 @@
         <p>ara82@drexel.edu</p>
         <p>3159354624</p>
     
-        <img src="img/linkedin" alt="linkedIn">
+        <!-- <img src="img/linkedin" alt="linkedIn">
         <img src="img/codepen" alt="codepen">
-        <img src="img/instagram" alt="instagram">
+        <img src="img/instagram" alt="instagram"> -->
     
     
     </footer>
+
+    <script src="js/main.js"></script>
   
 </body>
 </html>

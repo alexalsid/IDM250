@@ -1,0 +1,35 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+
+main div {
+    background-color: grey;
+    width: 100%;
+    height: 250px;
+}
+
+button {
+    border: 1px solid #50C7A8;
+    background-color: transparent;
+    height: 40px;
+    width: 80px;
+    font-family: 'Cutive Mono', monospace;
+    display: block;
+    margin: 40px auto;
+    transition: all .2s;
+}
+
+button:hover {cursor: pointer;
+transform: scale(1.1);}
+
+
+
+h1 {text-align: center;
+margin: 50px auto;
+color: white;}
+
+.project a {margin: 0 auto;
+text-decoration: none;}

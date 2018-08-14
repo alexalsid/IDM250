@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    perspective: 1600px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mobile {
+    width: 100%;
+}
+
+
+main {
+    margin-top: 20px;
+}
+
+

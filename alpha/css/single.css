@@ -1,0 +1,148 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 0 20px;
+    letter-spacing: .15ch;
+    color: slategray;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 100;
+    margin: 0 20px;
+    color: rgb(196, 196, 196);
+}
+
+#drop-box {
+    height: 30px;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid black;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin: 0 50% 0 20px;
+    font-family: 'Cutive Mono', sans-serif;
+    color: grey;
+    display: inline-block;
+    font-size: 1em;
+}
+
+#drop-box img {
+    display: inline-block;
+    transform: rotate(180deg) translateY(-4px);
+}
+
+.no-display {
+    animation: collapse .3s ease-out forwards;
+    border: none;
+}
+
+#drop-down * {
+    display: none;
+}
+
+#drop-down a {
+    margin: 0 20px;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: black;
+    transition: all .2s;
+}
+
+#drop-down a:hover {
+    color: #50C7A8;
+}
+
+.seperator {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+
+.display {
+    display: block !important;
+    opacity: 0;
+    animation: fade-in .5s forwards;
+}
+
+.expand {
+    display: block;
+    height: 0;
+    border: 1px solid black;
+    border-top: none;
+    display: grid;
+    grid-template-rows: 30px 1px 30px 1px 30px 1px 30px 1px 30px 1px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    animation: expand .3s ease-out forwards;
+}
+
+.spin {
+    animation: spin .3s linear forwards;
+}
+
+.spin-out {
+    animation: spin-out .3s linear forwards;
+}
+
+@keyframes expand {
+    from {
+        height: 0;
+    }
+    to {
+        height: 155px;
+    }
+}
+
+@keyframes collapse {
+    from {
+        height: 155px;
+    }
+    to {
+        height: 0;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(180deg) translateY(0px);
+    }
+    to {
+        transform: rotate(0deg) translateY(4px);
+    }
+}
+
+@keyframes spin-out {
+    from {
+        transform: rotate(0deg) translateY(0px);
+    }
+    to {
+        transform: rotate(180deg) translateY(-4px);
+    }
+}
+
+.placeholder {
+    height: 300px;
+    width: 100%;
+    background-color: lightgrey;
+    margin: 50px 0;
+}
+
+p {
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+}

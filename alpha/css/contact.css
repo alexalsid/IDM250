@@ -1,0 +1,20 @@
+.contact input[type="text"] {
+    margin: 50px;
+    display: block;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+.contact input[type="submit"] {
+    margin: 30px auto;
+}
+
+#message {border: 1px solid black;
+height: 100px;}
+
+h1 {font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+text-align: center;
+color: gray;
+}

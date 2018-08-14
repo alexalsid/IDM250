@@ -6,184 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Projects</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/header.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/fonts.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/projects.css" />
 
 </head>
 <body>
 
-    <header>
-        <img src="img/hamburger.svg" alt="open menu">
-        <img src="img/search.svg" alt="search projects">
-    
-        <nav>
-            <div class="menu-options">
-    
-                <a>
-                    <img src="img/home.svg" alt="home">
-                </a>
-                <a>
-                    <img src="img/project.svg" alt="project">
-                </a>
-                <a>
-                    <img src="img/about.svg" alt="about">
-                </a>
-                <a>
-                    <img src="img/contact.svg" alt="contact">
-                </a>
-                <a>
-                    <img src="img/experiments.svg" alt="experiments">
-                </a>
-    
-            </div>
-        </nav>
-    </header>
+<header>
+    <img src="img/search.svg" alt="search" id="search">
+    <div class="start" id="search-screen">
+        <img src="img/exit.svg" alt="exit" id="exit-search">
 
-    <main>
-
-<!-- *********************
-    **** PROJECT ONE ****
-    ********************** -->
-
-    <div class="project-cont">
-        <img src="img/line-1.svg" alt="">
-        <h1>Project Title</h1>
-        <h2>My roll in project</h2>
-
-        <h3>10.18.2017</h3>
-        <img src="img/line-2.svg" alt="">
-
-        <img src="img/view-icon.svg">
-
-        <div id="project-int-cont">
-
-        <h3> 1 </h3>
-
-        <img src="img/backslash.svg" alt="">
-
-        <h3> 6 </h3>
-
-        </div>
-
-        <img src="img/project-img.jpg" alt="project title">
-
-        <img src="img/line-3.svg" alt="">
-
-        <img src="img/mouse.svg" alt="scrole down for more">
+        <form action="search_results.html" method="POST">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <input type="submit" name="submit" id="submit" value="GO">
+        </form>
 
 
     </div>
+    <img src="img/hamburger.svg" alt="open menu" id="hamburger">
+
+    <nav id="nav">
+        <img src="img/exit.svg" alt="x" id="exit">
+        <img src="img/dash_line.svg" alt="">
+        <a href="projects.html">Projects</a>
+        <img src="img/dash_line.svg" alt="">
+        <a href="about.html">About</a>
+        <img src="img/dash_line.svg" alt="">
+        <a href="contact.html">Contact</a>
+        <img src="img/dash_line.svg" alt="">
+        <a href="">Experience</a>
+        <img src="img/dash_line.svg" alt="">
+    </nav>
+</header>
+
+<main>
+
+<div class="project">
+    
+    <h1>Project Title</h1>
+
+    <a href="single.html"><button>VIEW</button></a>
+</div>
+
+<div class="project">
+
+    <h1>Project Title</h1>
+
+    <a href="single.html">
+        <button>VIEW</button>
+    </a>
+</div>
+
+<div class="project">
+
+    <h1>Project Title</h1>
+
+    <a href="single.html">
+        <button>VIEW</button>
+    </a>
+</div>
+
+<div class="project">
+
+    <h1>Project Title</h1>
+
+    <a href="single.html">
+        <button>VIEW</button>
+    </a>
+</div>
 
 
 
-    <!-- *********************
-        **** PROJECT TWO ****
-        ********************** -->
-    
-    <div class="project-cont">
-        <img src="img/line-1.svg" alt="">
-        <h1>Project Title</h1>
-        <h2>My roll in project</h2>
-    
-        <h3>10.18.2017</h3>
-        <img src="img/line-2.svg" alt="">
-    
-        <img src="img/view-icon.svg">
-    
-        <div id="project-int-cont">
-    
-            <h3> 2 </h3>
-    
-            <img src="img/backslash.svg" alt="">
-    
-            <h3> 6 </h3>
-    
-        </div>
-    
-        <img src="img/project-img.jpg" alt="project title">
-    
-        <img src="img/line-3.svg" alt="">
 
-        <img src="img/mouse.svg" alt="scrole down for more">
-    
-    
-    </div>
+</main>
 
-
-
-
-    <!-- *********************
-            **** PROJECT THREE****
-            ********************** -->
-    
-    <div class="project-cont">
-        <img src="img/line-1.svg" alt="">
-        <h1>Project Title</h1>
-        <h2>My roll in project</h2>
-    
-        <h3>10.18.2017</h3>
-        <img src="img/line-2.svg" alt="">
-    
-        <img src="img/view-icon.svg">
-    
-        <div id="project-int-cont">
-    
-            <h3> 3 </h3>
-    
-            <img src="img/backslash.svg" alt="">
-    
-            <h3> 6 </h3>
-    
-        </div>
-    
-        <img src="img/project-img.jpg" alt="project title">
-    
-        <img src="img/line-3.svg" alt="">
-
-        <img src="img/mouse.svg" alt="scrole down for more">
-    
-    
-    </div>
-
-
-
-    <!-- *********************
-         **** PROJECT FOUR ****
-    `     ********************** -->
-    
-    <div class="project-cont">
-        <img src="img/line-1.svg" alt="">
-        <h1>Project Title</h1>
-        <h2>My roll in project</h2>
-    
-        <h3>10.18.2017</h3>
-        <img src="img/line-2.svg" alt="">
-    
-        <img src="img/view-icon.svg">
-    
-        <div id="project-int-cont">
-    
-            <h3> 4 </h3>
-    
-            <img src="img/backslash.svg" alt="">
-    
-            <h3> 6 </h3>
-    
-        </div>
-    
-        <img src="img/project-img.jpg" alt="project title">
-    
-        <img src="img/line-3.svg" alt="">
-
-        <img src="img/mouse.svg" alt="scrole down for more">
-    
-    
-    </div>
-
-    </main>
-
-
+   
 
 
 
@@ -199,6 +100,9 @@
     
     
     </footer>
+
+
+    <script src="js/main.js"></script>
 
 
 

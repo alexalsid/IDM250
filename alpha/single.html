@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Project Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Roboto: 100, 200, 300" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/header.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/fonts.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/single.css" />
@@ -15,84 +16,144 @@
 <body>
 
     <header>
-        <img src="img/hamburger.svg" alt="open menu">
+        <img src="img/search.svg" alt="search" id="search">
+        <div class="start" id="search-screen">
+            <img src="img/exit.svg" alt="exit" id="exit-search">
     
-        <nav>
-            <div class="menu-options">
+            <form action="search_results.html" method="POST">
+                <input type="text" name="search" id="search" placeholder="Search">
+                <input type="submit" name="submit" id="submit" value="GO">
+            </form>
     
-                <a>
-                    <img src="img/home.svg" alt="home">
-                </a>
-                <a>
-                    <img src="img/project.svg" alt="project">
-                </a>
-                <a>
-                    <img src="img/about.svg" alt="about">
-                </a>
-                <a>
-                    <img src="img/contact.svg" alt="contact">
-                </a>
-                <a>
-                    <img src="img/experiments.svg" alt="experiments">
-                </a>
     
-            </div>
+        </div>
+        <img src="img/hamburger.svg" alt="open menu" id="hamburger">
+    
+        <nav id="nav">
+            <img src="img/exit.svg" alt="x" id="exit">
+            <img src="img/dash_line.svg" alt="">
+            <a href="projects.html">Projects</a>
+            <img src="img/dash_line.svg" alt="">
+            <a href="about.html">About</a>
+            <img src="img/dash_line.svg" alt="">
+            <a href="contact.html">Contact</a>
+            <img src="img/dash_line.svg" alt="">
+            <a href="">Experience</a>
+            <img src="img/dash_line.svg" alt="">
         </nav>
     </header>
 
+    
 
     <main>
 
+    <h2>
+    
+        Roll in project
+    
+    </h2>
+
     <h1>
-        Project Title
+        PROJECT TITLE
     </h1>
 
-    <h2>
-
-        Roll in project
-
-    </h2>
+   
 
     <!-- might need function to change this nav content-->
 
-    <div class="sub-nav">
 
-        <h3>Jump Too</h3>
+        <div id="drop-box">
+            <h3>Jump Too</h3>
+            <img src="img/down-arrow.svg" alt="expand" id="down-arrow">
+        </div>
 
-        <a>Wireframes</a>
-        <a>Styles</a>
-        <a>Low-fidelity</a>
-        <a>Mid-fidelity</a>
-        <a>High-fidelity</a>
+        
+        <div id="drop-down" class="no-display">
+        <a href="#wireframes">Wireframes</a>
+        <div class="seperator"></div>
+        <a href="#styles">Styles</a>
+        <div class="seperator"></div>
+        <a href="#low-fidelity">Low-fidelity</a>
+        <div class="seperator"></div>
+        <a href="mid-fidelity">Mid-fidelity</a>
+        <div class="seperator"></div>
+        <a href="high-fidelity">High-fidelity</a>
+        </div>
 
+    
+
+  
+    
+    <div class="placeholder">
+        <h1> placeholder</h1>
     </div>
 
-    <img src="img/project.jpg" alt="project title">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+    <div class="placeholder" id="wireframes">
+        <h1> placeholder</h1>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+
+    <div class="placeholder" id="styles">
+        <h1> placeholder</h1>
+    </div>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+
+    <div class="placeholder" id="low-fidelity">
+        <h1> placeholder</h1>
+    </div>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <div class="placeholder" id="mid-fidelity">
+        <h1> placeholder</h1>
+    </div>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+
+    <div class="placeholder" id="high-fidelity">
+        <h1> placeholder</h1>
+    </div>
+    
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
 
     <!-- Will differ project to project -->
     <!-- get assets for all these things -->
-    <div class="wireframes">
-
-    </div>
-    <div class="styles">
-
-
-    </div>
-
-    <div class="low-fidelity">
-
     
-    </div>
-
-    <div class="mid-fidelity">
-
-
-    </div>
-
-    <div class="high-fidelity">
-
-
-    </div>
 
 
     </main>
@@ -109,6 +170,9 @@
     
     
     </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/single.js"></script>
 
 
 </body>
