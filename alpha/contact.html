@@ -16,19 +16,28 @@
 
     <header>
         <img src="img/search.svg" alt="search" id="search">
+        <div id="search-desk">
+            <form action="search_results.html" method="POST">
+                <input type="text" name="search">
+                <input type="image" name="submit" src="img/down-arrow.svg">
+    
+            </form>
+    
+        </div>
+    
         <div class="start" id="search-screen">
             <img src="img/exit.svg" alt="exit" id="exit-search">
-
+    
             <form action="search_results.html" method="POST">
                 <input type="text" name="search" id="search" placeholder="Search">
                 <input type="submit" name="submit" id="submit" value="GO">
             </form>
-
-
+    
+    
         </div>
         <img src="img/hamburger.svg" alt="open menu" id="hamburger">
-
-        <nav id="nav">
+    
+        <nav id="nav-mobile">
             <img src="img/exit.svg" alt="x" id="exit">
             <img src="img/dash_line.svg" alt="">
             <a href="projects.html">Projects</a>
@@ -40,21 +49,58 @@
             <a href="">Experience</a>
             <img src="img/dash_line.svg" alt="">
         </nav>
+    
+    
+        <nav id="nav-desktop">
+    
+            <ul>
+    
+                <a href="projects.html">
+                    <li>Projects</li>
+                </a>
+    
+                <a href="about.html">
+                    <li>
+                        About</li>
+                </a>
+    
+                <a href="contact.html">
+                    <li>
+                        Contact</li>
+                </a>
+    
+                <a href="">
+                    <li>
+                        Experience</li>
+                </a>
+    
+    
+            </ul>
+    
+    
+    
+        </nav>
+    
     </header>
+
+   
 
     <main>
 
-        <h1>Get In Touch</h1
-            >
+        <img src="img/contact.svg">
+        <h1>Get In Touch</h1>
+        <div class="form-cont">
         <form class="contact">
 
         <input type="text" name="name" id="name" placeholder="Jane Doe">
         <input type="text" name="email" id="email" placeholder="janedoe@example.com">
         <input type="text" name="subject" id="subject" placeholder="Subject Line">
-        <input type="text" name="message" id="message" placeholder="Your Message...">
+        <textarea rows="8" cols="50">Your message...</textarea>
         <input type="submit" name="submit" id="submit" value="send">
 
         </form>
+
+        </div>
 
 
 

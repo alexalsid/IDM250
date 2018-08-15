@@ -1,11 +1,44 @@
-
-h1 {margin: 0 20px;
-font-family: 'Roboto', sans-serif;
-font-weight: bold;
+h1 {
+    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: gray;
 }
 
+main img {
+    display: none;
+}
 
-p {font-size: 1.2em;
-line-height: 2em;
-font-family: 'Roboto', sans-serif;
-padding: 0 20px;}
+p {
+    font-size: 1.2em;
+    line-height: 2em;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 43rem) {
+    h1 {
+        display: none;
+    }
+    main img {
+        display: block;
+        width: 100%;
+        max-width: 1280px;
+    }
+    #bio {
+        width: 75%;
+        max-width: 750px;
+        margin: 0 auto;
+        background-color: #3E454E;
+        padding: 40px 60px;
+        transform: translateY(-30px);
+    }
+    #bio p {
+        color: white;
+    }
+}
+
+@media screen and (min-width: 70rem) {
+
+    #bio {transform: translateY(-50px)}
+    
+}

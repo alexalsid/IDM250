@@ -1,0 +1,116 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    max-width: 1280px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin: 40px 0 40px 20px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    display: inline-block;
+    font-size: 1.2em;
+    color: #FF4400;
+    font-weight: bold;
+}
+
+.search {
+    display: none;
+}
+
+main div {
+    background-color: grey;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    z-index: 10;
+}
+
+button {
+    border: 1px solid #50C7A8;
+    background-color: transparent;
+    height: 40px;
+    width: 80px;
+    font-family: 'Cutive Mono', monospace;
+    display: block;
+    margin: 0 auto;
+    transition: all .2s;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+    margin: 100px auto 50px auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.project a {
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 45.5rem) {
+
+    h2, h3 {font-size: 1.5em;}
+
+
+
+    .search-stuff {display: grid;
+    grid-template-columns: 1fr 1fr;
+margin: 0 20px;}
+
+    .search {
+        display: block;
+        justify-self: end;
+        width: 100%;
+    }
+    .search input[type="text"] {
+        margin: 40px 0 0 50px;
+        padding: 0 0 5px 0;
+        width: 80%;
+        font-size: 1em;
+        display: inline-block;
+
+    }
+    .search input[type="image"] {
+        display: inline-block;
+        transform: translateX(-50px) rotate(90deg);
+    }
+    .search img {
+        height: 20px;
+        transform: translateX(20px);
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+        margin: 50px 20px 0 20px;
+    }
+    main div {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 60rem) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
