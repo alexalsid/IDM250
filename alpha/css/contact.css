@@ -44,18 +44,11 @@ h1 {
     margin-left: 30%;
 }
 
+
+
 @media screen and (min-width: 44rem) {
-    .contact input[type="text"] {
-        margin: 80px 0;
-    }
-    textarea {
-        margin: 104px auto 0 auto;
-    }
-}
 
-@media screen and (min-width: 53rem) {
-
-    main {margin-top: 70px;}
+    main {margin-top: 40px;}
 
     .contact input[type="text"] {
         width: 50%;
@@ -94,9 +87,4 @@ h1 {
         margin: 0 auto;
         transform: translateY(-20px);
     }
-}
-
-@media screen and (min-width: 80rem) {
-
-    .form-cont {transform: translateY(-40px);}
 }

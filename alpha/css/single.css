@@ -169,11 +169,15 @@ p {
 
 .launch {
     display: none;
+    transition: all .3s;
 }
 
 .launch-desk {
     display: none;
+    transition: all .3s;
 }
+
+button:hover {transform: scale(1.1);}
 
 .lines {
     display: none;
@@ -185,9 +189,7 @@ p {
         margin: 40px 20px 0 20px;
         display: inline-block;
     }
-    #drop-box img {
-        margin-left: 65%;
-    }
+
     .expand {
         width: 250px;
         margin: 0 20px;

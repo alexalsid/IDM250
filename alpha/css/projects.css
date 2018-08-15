@@ -4,6 +4,7 @@ main {
     grid-row-gap: 15px;
     grid-column-gap: 15px;
     max-width: 1280px;
+    margin-bottom: 20px;
 }
 
 #projects {
@@ -45,7 +46,10 @@ h1 {
 .project a {
     margin: 0 auto;
     text-decoration: none;
+
 }
+
+button {color: white;}
 
 @media screen and (min-width: 45.5rem) {
     #projects {
@@ -60,18 +64,44 @@ h1 {
         grid-row-gap: 15px;
         grid-column-gap: 15px;
         margin: 130px 30px 0 30px;
-
     }
     main div {
-    
         width: 100%;
         height: 350px;
-       
     }
 }
 
-@media screen and (min-width: 60rem) {
+.project {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-    main {grid-template-columns: 1fr 1fr 1fr;}
-    
+#project-01 {
+    background-image: url(../img/salianaphoto.jpg);
+}
+
+#project-02 {
+    background-image: url(../img/schmear_it.jpg);
+}
+
+#project-03 {
+    background-image: url(../img/reciplease.jpg);
+}
+
+#project-04 {
+    background-image: url(../img/jacques_greene.jpg);
+}
+
+#project-05 {
+    background-image: url(../img/aurora.jpg);
+}
+
+#project-06 {
+    background-image: url(../img/tunnel_vision.jpg);
+}
+
+@media screen and (min-width: 60rem) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
