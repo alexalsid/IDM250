@@ -1,0 +1,52 @@
+.line-cont img {
+    margin: 50px 0;
+}
+
+.error {position: absolute;
+    width: 100%;
+top: 5%;}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 1.1em;
+}
+
+h1, a {
+    color: #FF4400;
+}
+
+h1 {
+    font-size: 7em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 55rem) {
+
+    .error {
+
+        top: 10%;
+
+
+    }
+
+
+}
