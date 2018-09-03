@@ -12,9 +12,6 @@ get_header(); ?>
 <!--blog body-->
 <div id="Blog-post"> 
 
-<div class="entry-header" style="background-image: url(<?php echo get_template_directory_uri();?>/dist/img/single_cover.png);">
-
-</div>
 
     
 

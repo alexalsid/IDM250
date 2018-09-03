@@ -58,7 +58,7 @@
           <!--search form-->
           
           <form method="get" action="/search.html" id="search">
-            <input name="q" type="text" size="40" placeholder="Search..." />
+            <?php get_search_form(); ?>
           </form>
           <!--/search form-->
           
