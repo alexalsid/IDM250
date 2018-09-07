@@ -1,4 +1,4 @@
-var dropBox = document.getElementById('drop-box');
+document.addEventListener("DOMContentLoaded", function () {var dropBox = document.getElementById('drop-box');
 
 
 function expand () {
@@ -39,4 +39,4 @@ dropdown.className = 'no-display';
 
 dropBox.addEventListener('click', expand);
 
-
+});

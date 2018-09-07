@@ -143,19 +143,24 @@ h3 {
 .placeholder {
     height: 300px;
     width: 100%;
-    background-color: lightgrey;
-    margin: 50px 0;
+    margin: 50px 40px;;
 }
 
-#cover {
+.placeholder img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.cover {
     background-color: transparent;
     margin: 50px auto;
     width: 90%;
     display: block;
     height: auto;
+    z-index: 10;
 }
 
-#cover img {
+.cover img {
     max-width: 100%;
     display: block;
     margin: 0 auto;
@@ -181,6 +186,7 @@ button:hover {transform: scale(1.1);}
 
 .lines {
     display: none;
+    z-index: 5;
 }
 
 @media screen and (min-width: 31.25rem) {

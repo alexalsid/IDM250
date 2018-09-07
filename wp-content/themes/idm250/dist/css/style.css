@@ -266,8 +266,7 @@ p:first-of-type {
 }
 
 main img {
-    width: 100%;
-    max-width: 300px;
+    /* width: 100%; */
 }
 
 main h1, h2, h3, h4, h5, h6 {

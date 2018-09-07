@@ -1,4 +1,6 @@
-var hamburger = document.getElementById('hamburger');
+document.addEventListener("DOMContentLoaded", function () {
+
+    var hamburger = document.getElementById('hamburger');
 var exit = document.getElementById('exit');
 var exitSearch = document.getElementById('exit-search');
 var search = document.getElementById('search');
@@ -51,3 +53,4 @@ exit.addEventListener('click',closeMenu );
 search.addEventListener('click', openSearch);
 exitSearch.addEventListener('click', closeSearch);
 
+});

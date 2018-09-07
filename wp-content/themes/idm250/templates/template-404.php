@@ -23,8 +23,6 @@ get_header();
 
     </div>
 
-
-
     <div class="error">
 
         <h1> 404 </h1>

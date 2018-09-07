@@ -4,7 +4,6 @@ main {
     grid-row-gap: 15px;
     grid-column-gap: 15px;
     max-width: 1280px;
-    margin-bottom: 20px;
 }
 
 #projects {
@@ -12,12 +11,21 @@ main {
 }
 
 main div {
-    background-color: grey;
     width: 100%;
     height: 350px;
     position: relative;
     z-index: 10;
+
 }
+
+main img {
+    position: absolute;
+    height: 100%;
+    width: 100% !important;
+    overflow: hidden;
+}
+
+
 
 button {
     border: 1px solid #50C7A8;
@@ -37,8 +45,8 @@ button:hover {
 
 h1 {
     text-align: center;
-    margin: 100px auto 50px auto;
-    color: white;
+    color: white !important;
+    margin: 100px auto 50px auto !important;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
@@ -46,10 +54,11 @@ h1 {
 .project a {
     margin: 0 auto;
     text-decoration: none;
-
 }
 
-button {color: white;}
+button {
+    color: white;
+}
 
 @media screen and (min-width: 45.5rem) {
     #projects {

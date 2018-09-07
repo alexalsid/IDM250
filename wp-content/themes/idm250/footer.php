@@ -1,3 +1,7 @@
+
+
+
+
 <footer>
     
         <p>ara82@drexel.edu</p>
@@ -11,3 +15,7 @@
         ?>
     
     </footer>
+    <?php wp_footer(); ?>
+
+            </body>
+            </html>

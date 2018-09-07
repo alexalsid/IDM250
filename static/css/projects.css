@@ -19,6 +19,12 @@ main div {
     z-index: 10;
 }
 
+main img {
+    height: 100%;
+    max-width: 100% !important;
+    overflow: hidden;
+}
+
 button {
     border: 1px solid #50C7A8;
     background-color: transparent;
